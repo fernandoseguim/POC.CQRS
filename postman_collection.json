@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "ca230d02-4592-4795-8da3-01188e910be7",
-		"name": "ESX.Test.Case",
+		"_postman_id": "b4a6ca36-6a29-46b6-ac55-85c18b653774",
+		"name": "POC.CQRS",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [

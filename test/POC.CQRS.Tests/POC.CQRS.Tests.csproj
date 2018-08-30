@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="AutoFixture" Version="4.5.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.2.1" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.2.1" />
+	<PackageReference Include="NSubstitute" Version="3.1.0" />
+	<PackageReference Include="ServiceStack.OrmLite.Sqlite.Core" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\POC.CQRS.Domain\POC.CQRS.Domain.csproj" />
+    <ProjectReference Include="..\..\src\POC.CQRS.Infra\POC.CQRS.Infra.csproj" />
+    <ProjectReference Include="..\..\src\POC.CQRS.Shared\POC.CQRS.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\POC.CQRS.Domain\POC.CQRS.Domain.csproj" />
+    <ProjectReference Include="..\POC.CQRS.Shared\POC.CQRS.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
